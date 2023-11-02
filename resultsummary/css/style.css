@@ -91,7 +91,6 @@ background-color: var(--NEUTRAL-WHITE);
 }
 .result__remark__explanation {
     margin: 1rem 0 2rem 0;
-    /* padding: 1.5rem 0; */
     color: var(--NEUTRAL-WHITE);
     font-size: 1rem;
     font-weight: 500;
@@ -99,7 +98,6 @@ background-color: var(--NEUTRAL-WHITE);
 .summary {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    /* background-color: var(--NEUTRAL-LIGHT-LAVENDER); */
     padding: var(--PADDING-TB) 2rem;
 }
 .summary__title {
@@ -110,7 +108,6 @@ background-color: var(--NEUTRAL-WHITE);
 .summary__ul {
     list-style-type: none;
     margin: 1.2rem 0 1.6rem 0;
-    /* background-color: blue; */
 }
 .summary__ul li {
     display: flex;
@@ -193,22 +190,16 @@ button {
         display: grid;
         margin: 200px auto auto auto;
         grid-template-columns: repeat(2, 1fr);
-        /* gap: 0; */
         border-radius: 3rem;
     }
     .result {
         border-radius: 3rem;
-        /* background-image: linear-gradient(to bottom, yellow, red 80%); */
         background-image: radial-gradient( var(var(--LINEAR-GRD-LIGHT-ROYAL-BLUE)) 10%, var(--CONTRAST-BLUE) 90%);
-        /* padding: 1.6rem 2.6rem 0 2.6rem; */
         padding: var(--PADDING-TB) 2.6rem;
         height: 460px;
         display: grid;
         grid-template-rows: 1fr 2fr 2fr;
     }
-    /* .result__title {
-        background-color: #333333;
-    } */
     .result__circle {
         margin: 0 auto;
         width: 180px;
@@ -216,7 +207,6 @@ button {
         border-radius: 50%;
         display: flex;
         flex-flow: column nowrap;
-        /* background-color: red; */
         padding: 10px;
         outline-width: 1px;
         outline-color: red;
@@ -227,7 +217,6 @@ button {
         font-size: 5rem;
     }
     .result__remark {
-        /* background-color: rebeccapurple; */
         display: grid;
         place-content: end center;
     }
