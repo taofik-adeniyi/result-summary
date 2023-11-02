@@ -7,41 +7,57 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; width: fit-content; margin: 0 auto; padding: .8rem; margin-top: 1rem; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<main>
+  <div class="result">
+    <h4 class="result__title">Your Result</h4>
+    <div class="result__circle">
+      <h1>76</h1>
+      <p>of 100</p>
+    </div>
+    <div class="result__remark">
+      <h3>Great</h3>
+      <p class="result__remark__explanation">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
   </div>
+  <div class="summary">
+    <h2 class="summary__title">Summary</h2>
+    <ul class="summary__ul">
+      <li>
+        <div><img src="./assets/images/icon-reaction.svg" alt="Reaction icon" /> <span class="reaction--color">Reaction</span></div>
+        <div>80 / <span>100</span></div>
+      </li>
+      <li>
+        <div><img src="./assets/images/icon-memory.svg" alt="Memory icon" /><span class="memory--color">Memory</span></div>
+        <div>92 / <span>100</span></div>
+      </li>
+      <li>
+        <div><img src="./assets/images/icon-verbal.svg" alt="Verbal icon" /><span class="verbal--color">Verbal</span></div>
+        <div>61 / <span>100</span></div>
+      </li>
+      <li>
+        <div><img src="./assets/images/icon-visual.svg" alt="Visual icon" /><span class="visual--color">Visual</span></div>
+        <div>72 / <span>100</span></div>
+      </li>
+    </ul>
+    <div>
+
+      <button type="button">Continue</button>
+    </div>
+  </div>
+</main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/taofik-adeniyi">Taofik Adeniyi</a>.
+  </footer>
 </body>
 </html>
